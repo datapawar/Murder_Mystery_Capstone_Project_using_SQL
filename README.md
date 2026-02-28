@@ -60,7 +60,7 @@ The disclosure notes that the evidence trail aligns most strongly with **David K
 
 ### ✅ Step 6: Final Intersection (The "SQL Verdict")
 
-The final step builds three suspicious sets — presence in CEO Office, alibi mismatch, and calls in the critical window — and intersects them to find the overlap.
+The final step builds three suspicious sets — presence in CEO Office, alibi mismatch, and calls in the critical window - and intersects them to find the overlap.
 This convergence identifies a single killer: **David Kumar**.
 
 ---
