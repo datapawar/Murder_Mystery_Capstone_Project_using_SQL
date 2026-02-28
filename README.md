@@ -11,7 +11,7 @@
 
 ## 📖 Story Background
 
-On **October 15, 2025**, the CEO was found dead in the **CEO Office**, and the entire investigation was solved using SQL.
+On **October 15, 2025**, the CEO was found dead in the **CEO Office**, and the entire investigation must be solved using SQL.
 The script follows a structured, step-by-step approach: define a time window, identify presence, validate alibis, analyze calls, correlate evidence, and intersect findings to isolate a single suspect.
 
 ---
@@ -60,7 +60,7 @@ The disclosure notes that the evidence trail aligns most strongly with **David K
 
 ### ✅ Step 6: Final Intersection (The "SQL Verdict")
 
-The final step builds three suspicious sets — presence in CEO Office, alibi mismatch, and calls in the critical window - and intersects them to find the overlap.
+The final step builds three suspicious sets — presence in CEO Office, alibi mismatch, and calls in the critical window — and intersects them to find the overlap.
 This convergence identifies a single killer: **David Kumar**.
 
 ---
@@ -73,7 +73,7 @@ This convergence identifies a single killer: **David Kumar**.
    ```
 
 2. **Execute the script file:**
-   Run `Murder_Mystery.sql` in your SQL client (MySQL-compatible syntax is used, e.g., `DATE()` and `BETWEEN`).
+   Run `Murder_mystery.sql` in your SQL client (MySQL-compatible syntax is used, e.g., `DATE()` and `BETWEEN`).
 
 3. **Check the final output:**
    The last query returns a single-column result: `killer`.
@@ -102,9 +102,18 @@ The script concludes David Kumar is the killer by combining movement logs, alibi
 
 ## 📁 Repository Contents
 
-| File | Description |
-|---|---|
-| `Murder_Mystery.sql` | Investigation script (steps + queries) |
-| `README.md` | Project overview and walkthrough (this file) |
+<div align="center">
+
+![Project Thumbnail](MM%20Thumbnail.png)
+
+</div>
+
+| File | Type | Description |
+|---|---|---|
+| 🔍 `Murder_mystery.sql` | SQL Script | Core investigation file containing all step-by-step queries, CTEs, JOINs, and the final verdict logic |
+| 📄 `table_creation.sql` | SQL Script | Schema definitions and table creation statements to set up the murder mystery database |
+| 📊 `Murder Mystery Investigation.pdf` | PDF Report | Detailed investigation report documenting the full case walkthrough, evidence, and findings |
+| 🖼️ `MM Thumbnail.png` | Image | Project thumbnail used as a visual cover for this repository |
+| 📖 `README.md` | Documentation | Project overview, walkthrough, and usage guide (this file) |
 
 ---
